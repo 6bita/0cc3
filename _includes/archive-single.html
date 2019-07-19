@@ -41,23 +41,26 @@
           <td>
             
             <div class="highlighter-rouge">
-              <span>
-              {% capture %}
+              
+              {% capture tags %}
                
-                  {{ post.tags | join: " vs " }}
+                  {{ post.tags }}
                
               {% endcapture %}
+              <span>
+                {{ tags | join: " vs " }}
               </span>
+              
             </div>
           
           </td>
-          <td>
+          <!--<td>
             <div class="highlighter-rouge">
               <span>
                 {{ post.category }}
               </span>
             </div>
-          </td>
+          </td>-->
         </tr>
       </tbody>
     </table>
