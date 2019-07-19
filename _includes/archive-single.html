@@ -39,11 +39,17 @@
       <tbody>
         <tr>
           <td>
+            
             <div class="highlighter-rouge">
               <span>
-                {{ post.tags | join: " vs " }}
+              {% capture %}
+               
+                  {{ post.tags | join: " vs " }}
+               
+              {% endcapture %}
               </span>
             </div>
+          
           </td>
           <td>
             <div class="highlighter-rouge">
