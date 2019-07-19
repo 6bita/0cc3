@@ -27,12 +27,13 @@
       div.highlighter-rouge, figure.highlight {
         position: relative;
         margin-bottom: 1em;
-        font-family: Monaco,Consolas,"Lucida Console",monospace;
-        font-size: .75em;
+        font-family: 16px Monaco,Consolas,"Lucida Console",monospace;
+        /*font-size: .75em;*/
         line-height: 1.8;
         border: 1px solid #e9dcbe;
         border-radius: 4px;
         background-color: #fafafa;
+        color: #e9dcbe;
         box-shadow: 0 1px 1px rgba(0,0,0,0.125); }
     </style>
     <table>
@@ -48,7 +49,7 @@
                
               {% endcapture %}
               <span>
-                {{ tags | join:' vs ' }}
+                {{ tags | join:" vs " }}
               </span>
               
             </div>
