@@ -46,10 +46,13 @@ search: true
 
 social:
   type:  "Person" # Person or Organization (defaults to Person)
-  name:  "Sei Bita" # If the user or organization name differs from the site's name
+  name:  "Sci Bita" # If the user or organization name differs from the site's name
+    - oficial: Sci Bita
+    - user: 6bita
+    - friendly: Ceibita
   links:
-   - https://6bita.github.io/6bita.github.io
-   
+   - https://6bita.github.io
+   - https://twitter.com/BitaSci
 analytics:
   provider: "google-gtag"
   google:
@@ -95,29 +98,29 @@ author:
   bio    : "SQuad: Club Atlético Peñarol"
   links:
     - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://6bita.github.io/6bita.github.io"
+      icon: "fas fa-fw fa-link-square"
+      url: "https://6bita.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/BitaSci"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/6bita"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      icon: "fab fa-fw fa-github-square"
+      url: "https://6bita.github.io"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube-square"
+      url: "https://www.youtube.com/channel/UCnorB92qbzU11pZC0qd7J6Q"
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/BitaSci"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      icon: "fab fa-fw fa-github-square"
+      url: "https://6bita.github.io"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube-square"
+      url: "https://www.youtube.com/channel/UCnorB92qbzU11pZC0qd7J6Q"
 
 defaults:
   # _posts
