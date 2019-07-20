@@ -43,7 +43,7 @@
             
             <div class="highlighter-rouge">
               
-              {% assign tags = {{ post.tags | join: ' vs ' %}
+              {% capture tags %}{{ post.tags | join: ' vs ' }}{% endcapture %}
               <span>
                 {{ tags }}
               </span>
