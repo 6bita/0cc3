@@ -29,7 +29,7 @@
         margin-bottom: 1em;
         font-family: Monaco,Consolas,"Lucida Console",monospace;
         font-size: 1.5em;
-        line-height: 1.8;
+        line-height: 1.4em;
         border: 1px solid #e9dcbe;
         border-radius: 4px;
         background-color: #fafafa;
@@ -41,20 +41,22 @@
         <tr>
           <td>
             
-            <div class="highlighter-rouge">
-              <span>
+            <div id="overhead-left" style="align: left;">
+              <span class="highlighter-rouge">
                 {% capture %}{{ post.tags | join: ' vs ' }}{% endcapture %}
               </span>
             </div>
           
           </td>
-          <!--<td>
-            <div class="highlighter-rouge">
-              <span>
-                {{ post.category }}
+          <td>
+            
+            <div id="overhead-right" style="align: right;background: red;color: white;">
+              <span class="highlighter-rouge">
+                {% capture %}{{ post.category }}{% endcapture %}
               </span>
             </div>
-          </td>-->
+          
+          </td>
         </tr>
       </tbody>
     </table>
