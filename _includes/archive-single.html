@@ -28,51 +28,44 @@
       
       div.highlighter-rouge, figure.highlight {
         position: relative;
-        margin-bottom: 0;
+        margin-bottom: 1em;
         font-family: Monaco,Consolas,"Lucida Console",monospace;
-        font-size: 1.2em;
-        line-height: 1.2em;
+        font-size: 1.5em;
+        line-height: 1.4em;
         border: 1px solid #e9dcbe;
         border-radius: 4px;
         background-color: #fafafa;
         color: #e9dcbe;
-        box-shadow: 0 1px 1px rgba(0,0,0,0.125);
-        padding: 2px; }
-      
-      div.boton-partido-info {
-        color: #eacb81;
-        background: #fafafa;
-        border-radius: 4px;
-        border: 1px solid #eacb81;
-        box-shadow: 0 1px 1px rgba(0,0,0,0.125);
-        padding: 5px; }
+        box-shadow: 0 1px 1px rgba(0,0,0,0.125); }
       
     </style>
-    <!--
+    
     <table>
       <tbody>
         <tr>
           <td>
             
-            <div class="boton-partido-info">
+            <div class="highlighter-rouge">
               <span >
-                {% capture %}{{ post.tags | join: ' vs ' }}{% endcapture %}
+                {% capture tags %}{{ post.tags | join: ' vs ' }}{% endcapture %}
+                {{ tags }}
               </span>
             </div>
           
           </td>
-         <!-- <td>
+          <td>
             
-            <div id="overhead-right" style="align: right;background: red;color: white;">
-              <span class="highlighter-rouge">
-                {% capture %}{{ post.category }}{% endcapture %}
+            <div class="highlighter-rouge">
+              <span>
+                {% capture category %}{{ post.category }}{% endcapture %}
+                {{ category }}
               </span>
             </div>
           
           </td>
         </tr>
       </tbody>
-    </table>   -->
+    </table>   
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
