@@ -93,7 +93,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Sei Bita"
+  name   : "Sci Bita"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "SQuad: Club Atlético Peñarol"
   links:
