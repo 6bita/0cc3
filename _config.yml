@@ -23,7 +23,9 @@ url: "https://6bita.github.io/0cc3"
 baseurl: "/"
 repository: "6bita/0cc3"
 
-logo: "/assets/images/logo.png"
+logo:
+  - image_path: "/assets/images/logo.png"
+  - Alt: "Copa América Brasil 2019"
 
 comments:
   provider: "disqus"
