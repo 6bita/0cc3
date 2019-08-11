@@ -24,9 +24,8 @@ baseurl: "/"
 repository: "6bita/0cc3"
 
 logo:
-  image:
-    path: "/assets/images/logo.png"
-    Alt: "Copa América Brasil 2019"
+  - image: "/assets/images/logo.png"
+  - Alt: "Copa América Brasil 2019"
 
 comments:
   provider: "disqus"
