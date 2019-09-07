@@ -7,7 +7,7 @@ category:
 tags:
   - Ecuador
   - Chile
-link: https://mystream.to/watch/7ofvvl2xt1kw
+link: https://mystream.to/watch/r0vped4fkcld
 header:
     overlay_color: "#012681"
     overlay_filter: "0.5"
@@ -37,7 +37,7 @@ header:
 				<tr>
 					<td width="21" background="{{ site.url }}/{{ site.baseurl }}/assets/images/21210212120.png"></td>
 					<td>
-						<iframe src="https://embed.mystream.to/7ofvvl2xt1kw" scrolling="no" frameborder="0" width="560" height="315" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+						<iframe src="https://embed.mystream.to/r0vped4fkcld" scrolling="no" frameborder="0" width="560" height="315" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
 					</td>
     					<td width="21" background="{{ site.url }}/{{ site.baseurl }}/assets/images/203233451.png"></td>
   				</tr>
