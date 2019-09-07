@@ -37,7 +37,7 @@ header:
 				<tr>
 					<td width="21" background="{{ site.url }}/{{ site.baseurl }}/assets/images/21210212120.png"></td>
 					<td>
-						<iframe src="https://embed.mystream.to/0dw9krc9j1jh" scrolling="no" frameborder="0" width="700" height="430" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+						<iframe src="https://embed.mystream.to/0dw9krc9j1jh" scrolling="no" frameborder="0" width="560" height="315" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
 					</td>
     					<td width="21" background="{{ site.url }}/{{ site.baseurl }}/assets/images/203233451.png"></td>
   				</tr>
