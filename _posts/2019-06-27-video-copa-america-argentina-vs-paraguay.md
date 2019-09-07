@@ -7,7 +7,7 @@ category:
 tags:
   - Argentina
   - Paraguay
-link: https://mystream.to/watch/3otx14g2d62n
+link: https://mystream.to/watch/9jez0niy54bg
 header:
     overlay_color: "#012681"
     overlay_filter: "0.5"
@@ -37,7 +37,7 @@ header:
 				<tr>
 					<td width="21" background="{{ site.url }}/{{ site.baseurl }}/assets/images/21210212120.png"></td>
 					<td>
-						<iframe src="https://embed.mystream.to/3otx14g2d62n" scrolling="no" frameborder="0" width="560" height="315" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>					</td>
+						<iframe src="https://embed.mystream.to/9jez0niy54bg" scrolling="no" frameborder="0" width="700" height="430" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>					</td>
     					<td width="21" background="{{ site.url }}/{{ site.baseurl }}/assets/images/203233451.png"></td>
   				</tr>
 				<tr>
